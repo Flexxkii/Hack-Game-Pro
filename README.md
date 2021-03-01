@@ -18,6 +18,7 @@
 
 *Percentage until next milestone*
 ![Preview](preview.png?raw=true "Preview")
+
 ---
 
 # Changelog
