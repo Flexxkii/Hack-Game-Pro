@@ -22,11 +22,15 @@
 ---
 
 # Changelog
--	Version 0.01
+-	Version 0.01  
 	Added progress bar for Medal of Honor award.
 
--	Version 0.02
-	Added percentage until next milestone
+-	Version 0.02  
+	Added percentage until next milestone  
 	Code cleanup
 
 ---
+
+# TODO
+
+For now, nothing.
