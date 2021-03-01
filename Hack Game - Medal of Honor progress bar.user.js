@@ -2,6 +2,7 @@
 // @name         Hack Game - Medal of Honor progress bar
 // @namespace    http://tampermonkey.net/
 // @version      0.3
+// @updateURL    https://github.com/Flexxkii/Hack-Game-Medal-of-Honor-progress-bar/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js
 // @description  Displays a progress bar in your profile to see how far you are until unlocking the medal of honor award.
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
 // @match        https://hackforums.net/gamecp.php?action=profile*
