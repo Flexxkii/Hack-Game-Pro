@@ -29,6 +29,10 @@
 	Added percentage until next milestone\
 	Code cleanup
 
+-	**Version 0.3**\
+	Code cleanup\
+	Code explained
+
 ---
 
 # TODO
