@@ -3,4 +3,4 @@
 
 # Preview
 
-![Preview](relative/path/to/img.jpg?raw=true "Preview")
+![Preview](preview.png?raw=true "Preview")
