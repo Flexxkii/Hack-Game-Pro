@@ -27,5 +27,6 @@
 
 -	Version 0.02
 	Added percentage until next milestone
+	Code cleanup
 
 ---
