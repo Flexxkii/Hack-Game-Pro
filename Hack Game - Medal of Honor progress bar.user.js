@@ -12,10 +12,9 @@
 // @grant        GM_addStyle
 // ==/UserScript==
 
-console.debug('start: add CSS');
+// Adding External CSS Stylesheet
 var cssTxt  = GM_getResourceText("customCSS");
 GM_addStyle (cssTxt);
-console.debug('done: add CSS');
 
 
 $(document).ready(function(){
@@ -65,8 +64,8 @@ $(document).ready(function(){
     var battery = $(".hficon-battery-100").parent();
     var battery_title = $(".hficon-battery-100").parent().attr('title');
     // fix battery icon position
-    $('.hficon-battery-100').css('bottom', '0px');
-    $(battery).css("display", "flex", "align-items", "center");
+    //$('.hficon-battery-100').css('bottom', '0px');
+    //$(battery).css("display", "flex", "align-items", "center");
     // Add percentage text before the battery icoon
     $(battery).prepend(`<span style='font-size: .5em; padding-right: 1em;'> ${battery_title} </span>`);
     //$(battery).prepend("<span style='font-size: .5em; padding-right: 1em;'>"+battery+'</span>');
