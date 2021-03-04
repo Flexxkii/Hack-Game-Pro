@@ -1,3 +1,8 @@
 .hficon-battery-100 {
-	background-color:red;
+	bottom: 0px;
+}
+
+.game-top-right-icons a:last-of-type {
+	display: flex;
+	align-items: center;
 }
