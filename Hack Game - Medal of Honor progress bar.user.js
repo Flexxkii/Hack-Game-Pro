@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hack Game Pro
 // @namespace    http://tampermonkey.net/
-// @version      0.4.2
+// @version      0.4.2.1
 // @updateURL    https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js
 // @description  Displays a progress bar in your profile to see how far you are until unlocking the medal of honor award.
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
@@ -61,8 +61,9 @@ $(document).ready(function(){
     $(".tinytext:not('.tinytext_t')").text(currentxp[0]+' / '+currentxp[1]+ ' | '+width_calc_nl_round+"%");
 
     // Get battery percentage
-    var battery = $(".hficon-battery-100").parent();
-    var battery_title = $(".hficon-battery-100").parent().attr('title');
+    var battery = $(".game-top-right-icons > a:last-of-type i").parent();
+    console.log($('.game-top-right-icons > a:last-of-type i'));
+    var battery_title = $(".game-top-right-icons > a:last-of-type").attr('title');
     // Add percentage text before the battery icoon
     $(battery).prepend(`<span style='font-size: .5em; padding-right: 1em;'> ${battery_title} </span>`);
 });

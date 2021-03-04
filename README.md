@@ -56,6 +56,9 @@
 	Fix progress bar being applied to every box on every page.\
 	Notification bar sticked to the screen.
 
+-	**Version 0.4.2.1**\
+	Battery fixed
+
 ---
 
 # TODO
