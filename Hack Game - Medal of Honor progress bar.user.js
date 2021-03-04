@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Hack Game Pro
 // @namespace    http://tampermonkey.net/
-// @version      0.4.1.3
+// @version      0.4.1.4
 // @updateURL    https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js
 // @description  Displays a progress bar in your profile to see how far you are until unlocking the medal of honor award.
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
-// @match        https://hackforums.net/gamecp.php?action=profile*
+// @match        https://hackforums.net/gamecp.php*
 // @require      http://code.jquery.com/jquery-3.x-git.min.js
 // @resource     customCSS   https://raw.githubusercontent.com/Flexxkii/Hack-Game-Pro/main/style.css
 // @grant        GM_getResourceText

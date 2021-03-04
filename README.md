@@ -45,6 +45,9 @@
 -	**Version 0.4.1.3**\
 	CSS property is now being changed with an external stylesheet.
 
+-	**Version 0.4.1.4**\
+	Script being applied to the whole game instead only the profile page
+
 ---
 
 # TODO
