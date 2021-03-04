@@ -11,6 +11,7 @@
 -	Displays your progress to the Medal of Honor award!
 -	Displays percentage until next milestone.
 -	Show battery percentage
+-	Sticky notification bar
 
  ---
 
@@ -24,6 +25,9 @@
 
 *Show battery percentage*
 ![Preview](imgs/preview3.png?raw=true "Preview")
+
+*Sticky notification bar*
+![Preview](imgs/preview4.png?raw=true "Preview")
 
 ---
 
@@ -47,6 +51,10 @@
 
 -	**Version 0.4.1.4**\
 	Script being applied to the whole game instead only the profile page
+
+-	**Version 0.4.2**\
+	Fix progress bar being applied to every box on every page.\
+	Notification bar sticked to the screen.
 
 ---
 

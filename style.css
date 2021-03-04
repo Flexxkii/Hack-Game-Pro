@@ -26,3 +26,9 @@
 	box-shadow: inset 0px 0px 3px 1px #ffffff12;
 	border: 1px solid #292929;
 }
+
+div.failure, div.success {
+	z-index: 99;
+    position: sticky;
+    top: 10px;
+}
