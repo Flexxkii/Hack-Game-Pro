@@ -1,4 +1,4 @@
-# Hack Game Medal of Honor progress bar
+# Hack Game Pro
  hackforums.net | Hack Game - Medal of Honor progress bar
 
  ---
