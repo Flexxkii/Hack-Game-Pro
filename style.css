@@ -14,3 +14,15 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+#progress-bar-percentage_t {
+	background: #f1c40f;
+	padding: 5px 0px;
+	color: #FFF;
+	text-align: center;
+	height: 1px;
+	transition: 0.1s;
+	background-color: #f1c40f;
+	box-shadow: inset 0px 0px 3px 1px #ffffff12;
+	border: 1px solid #292929;
+}

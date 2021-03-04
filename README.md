@@ -42,6 +42,9 @@
 -	**Version 0.4**\
 	Show Battery percentage next to battery
 
+-	**Version 0.4.1.3**\
+	CSS property is now being changed with an external stylesheet.
+
 ---
 
 # TODO
