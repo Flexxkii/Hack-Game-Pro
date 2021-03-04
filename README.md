@@ -63,4 +63,6 @@
 
 # TODO
 
-For now, nothing.
+-	Maybe, a sound for when the cooldown is over.
+-	Status in de page title (like for example cooldown time);
+
