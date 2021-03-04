@@ -7,10 +7,15 @@
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
 // @match        https://hackforums.net/gamecp.php?action=profile*
 // @require      http://code.jquery.com/jquery-3.x-git.min.js
-// @resource     IMPORTED_CSS http://cdn.abc.com/jquery-ui.min.css
+// @resource     customCSS   https://raw.githubusercontent.com/Flexxkii/Hack-Game-Pro/main/style.css
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // ==/UserScript==
+
+console.debug('start: add CSS');
+var cssTxt  = GM_getResourceText("customCSS");
+GM_addStyle (cssTxt);
+console.debug('done: add CSS');
 
 
 $(document).ready(function(){
