@@ -1,7 +1,8 @@
 # Hack Game Pro
  hackforums.net | Hack Game - Medal of Honor progress bar
 
- ![Github](imgs/btn1.svg?raw=true "Github") ![tampermonkey](imgs/btn2.svg?raw=true "Tampermonkey")
+[<img src="imgs/btn1.svg?raw=true">](https://github.com/Flexxkii/Hack-Game-Pro)
+[<img src="imgs/btn2.svg?raw=true">](https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js)
 
  ---
 
