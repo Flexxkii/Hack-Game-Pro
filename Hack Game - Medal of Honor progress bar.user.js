@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hack Game - Medal of Honor progress bar
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @updateURL    https://github.com/Flexxkii/Hack-Game-Medal-of-Honor-progress-bar/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js
 // @description  Displays a progress bar in your profile to see how far you are until unlocking the medal of honor award.
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
@@ -52,4 +52,9 @@ $(document).ready(function(){
     $(tinytext).text(currentxp[0]+' / 250,000 xp | '+width_calc_round+"%");
     // Displays current xp / milestone | percentage for the next level milestone
     $(".tinytext:not('.tinytext_t')").text(currentxp[0]+' / '+currentxp[1]+ ' | '+width_calc_nl_round+"%");
+
+    var battery = $(".hficon-battery-100").parent();
+    $('.hficon-battery-100').css('bottom', '0px');
+    $(battery).prepend("<span style='font-size: .5em; padding-right: 1em;'>"+$(battery).attr('title')+'</span>');
+    console.log($(battery).attr('title'));
 });

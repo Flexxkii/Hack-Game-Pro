@@ -10,17 +10,20 @@
 
 -	Displays your progress to the Medal of Honor award!
 -	Displays percentage until next milestone.
-
+-	Show battery percentage
 
  ---
 
 # Preview
 
 *Progress bar for Medal of Honor award*
-![Preview2](imgs/preview2.png?raw=true "Preview2")
+![Preview](imgs/preview2.png?raw=true "Preview")
 
 *Percentage until next milestone*
 ![Preview](imgs/preview.png?raw=true "Preview")
+
+*Show battery percentage*
+![Preview](imgs/preview3.png?raw=true "Preview")
 
 ---
 
@@ -35,6 +38,9 @@
 -	**Version 0.3**\
 	Code cleanup\
 	Code explained
+
+-	**Version 0.4**\
+	Show Battery percentage next to battery
 
 ---
 
