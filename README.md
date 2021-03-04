@@ -1,8 +1,8 @@
 # Hack Game Pro
  hackforums.net | Hack Game - Medal of Honor progress bar
 
-[<img src="imgs/btn1.svg?raw=true" width="200">](https://github.com/Flexxkii/Hack-Game-Pro)
-[<img src="imgs/btn2.svg?raw=true" width="200">](https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js)
+[<img src="imgs/btn1.svg?raw=true" height="50">](https://github.com/Flexxkii/Hack-Game-Pro)
+[<img src="imgs/btn2.svg?raw=true" height="50">](https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js)
 
  ---
 
