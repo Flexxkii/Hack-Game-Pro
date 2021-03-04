@@ -59,6 +59,9 @@
 -	**Version 0.4.2.1**\
 	Battery fixed
 
+-	**Version 0.4.2.2**\
+	Battery fixed on other pages
+
 ---
 
 # TODO
