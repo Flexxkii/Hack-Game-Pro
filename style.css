@@ -6,3 +6,11 @@
 	display: flex;
 	align-items: center;
 }
+
+#progress-bar-honor {
+    width: 100%;
+    box-shadow: inset 0px 0px 3px 1px #9090901c;
+    background: #101010;
+    display: inline-block;
+    vertical-align: middle;
+}

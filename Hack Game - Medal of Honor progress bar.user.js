@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hack Game Pro
 // @namespace    http://tampermonkey.net/
-// @version      0.4.1.1
+// @version      0.4.1.2
 // @updateURL    https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js
 // @description  Displays a progress bar in your profile to see how far you are until unlocking the medal of honor award.
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
@@ -21,7 +21,7 @@ $(document).ready(function(){
     // This is the block it's going too append
     var obj_block =
         `<div style="border-top: 1px solid #212121; padding: 4px;">
-          <div id="progress-bar" class="all-rounded game-progress-bar-1" style="width: 100%; box-shadow: inset 0px 0px 3px 1px #9090901c; background: #101010;" title="Level Progress: 18.83%">
+          <div id="progress-bar-honor" class="all-rounded game-progress-bar-1" style="width: 100%; box-shadow: inset 0px 0px 3px 1px #9090901c; background: #101010;" title="Level Progress: 18.83%">
            <div id="progress-bar-percentage_t" class="all-rounded" style="background: #f1c40f; padding: 5px 0px; color: #FFF; text-align: center; height: 1px; transition: 0.1s; background-color: #f1c40f; box-shadow: inset 0px 0px 3px 1px #ffffff12; border: 1px solid #292929;">
            </div>
           </div>
@@ -63,10 +63,6 @@ $(document).ready(function(){
     // Get battery percentage
     var battery = $(".hficon-battery-100").parent();
     var battery_title = $(".hficon-battery-100").parent().attr('title');
-    // fix battery icon position
-    //$('.hficon-battery-100').css('bottom', '0px');
-    //$(battery).css("display", "flex", "align-items", "center");
     // Add percentage text before the battery icoon
     $(battery).prepend(`<span style='font-size: .5em; padding-right: 1em;'> ${battery_title} </span>`);
-    //$(battery).prepend("<span style='font-size: .5em; padding-right: 1em;'>"+battery+'</span>');
 });
