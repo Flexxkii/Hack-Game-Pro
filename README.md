@@ -1,6 +1,8 @@
 # Hack Game Pro
  hackforums.net | Hack Game - Medal of Honor progress bar
 
+ ![Github](imgs/btn1.svg?raw=true "Github") ![tampermonkey](imgs/btn2.svg?raw=true "Tampermonkey")
+
  ---
 
 # Features
@@ -14,10 +16,10 @@
 # Preview
 
 *Progress bar for Medal of Honor award*
-![Preview2](preview2.png?raw=true "Preview2")
+![Preview2](imgs/preview2.png?raw=true "Preview2")
 
 *Percentage until next milestone*
-![Preview](preview.png?raw=true "Preview")
+![Preview](imgs/preview.png?raw=true "Preview")
 
 ---
 
