@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Hack Game - Medal of Honor progress bar
+// @name         Hack Game Pro
 // @namespace    http://tampermonkey.net/
 // @version      0.4
 // @updateURL    https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js
@@ -7,8 +7,11 @@
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
 // @match        https://hackforums.net/gamecp.php?action=profile*
 // @require      http://code.jquery.com/jquery-3.x-git.min.js
-// @grant        none
+// @resource     IMPORTED_CSS http://cdn.abc.com/jquery-ui.min.css
+// @grant        GM_getResourceText
+// @grant        GM_addStyle
 // ==/UserScript==
+
 
 $(document).ready(function(){
     // This is the block it's going too append
@@ -53,8 +56,13 @@ $(document).ready(function(){
     // Displays current xp / milestone | percentage for the next level milestone
     $(".tinytext:not('.tinytext_t')").text(currentxp[0]+' / '+currentxp[1]+ ' | '+width_calc_nl_round+"%");
 
+    // Get battery percentage
     var battery = $(".hficon-battery-100").parent();
+    var battery_title = $(".hficon-battery-100").parent().attr('title');
+    // fix battery icon position
     $('.hficon-battery-100').css('bottom', '0px');
-    $(battery).prepend("<span style='font-size: .5em; padding-right: 1em;'>"+$(battery).attr('title')+'</span>');
-    console.log($(battery).attr('title'));
+    $(battery).css("display", "flex", "align-items", "center");
+    // Add percentage text before the battery icoon
+    $(battery).prepend(`<span style='font-size: .5em; padding-right: 1em;'> ${battery_title} </span>`);
+    //$(battery).prepend("<span style='font-size: .5em; padding-right: 1em;'>"+battery+'</span>');
 });
