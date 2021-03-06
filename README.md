@@ -36,31 +36,36 @@
 	Added progress bar for Medal of Honor award.
 
 -	**Version 0.2**\
-	Added percentage until next milestone\
-	Code cleanup
+	Added percentage until next milestone.\
+	Code cleanup.
 
 -	**Version 0.3**\
-	Code cleanup\
-	Code explained
+	Code cleanup.\
+	Code explained.
 
 -	**Version 0.4**\
-	Show Battery percentage next to battery
+	Show Battery percentage next to battery.
 
 -	**Version 0.4.1.3**\
 	CSS property is now being changed with an external stylesheet.
 
 -	**Version 0.4.1.4**\
-	Script being applied to the whole game instead only the profile page
+	Script being applied to the whole game instead only the profile page.
 
 -	**Version 0.4.2**\
 	Fix progress bar being applied to every box on every page.\
 	Notification bar sticked to the screen.
 
 -	**Version 0.4.2.1**\
-	Battery fixed
+	Battery fixed.
 
 -	**Version 0.4.2.2**\
-	Battery fixed on other pages
+	Battery fixed on other pages.
+
+-	**Version 0.4.3**\
+	Calculates total xp correctly now.\
+	Formats xp numbers to US standards.\
+	Replaces the correct current xp progress span.
 
 ---
 
