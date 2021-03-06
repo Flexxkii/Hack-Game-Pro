@@ -50,7 +50,8 @@ $(document).ready(function(){
         // Current xp formatted
         var currentxp_arr_format = Intl.NumberFormat().format(currentxp_arr);
         // Selecting current level
-        var currentlevel = $('.game-top-left-icons span');
+        var currentlevel = $('#game_content_currentpage > tr:nth-child(2) > td > .gtable > .gtr:nth-child(2) > .tcenter');
+        console.log(currentlevel);
         // Splitting level string
         var currentlevel_lvl = $(currentlevel[0]).text().split(":");
         // Selects current level
