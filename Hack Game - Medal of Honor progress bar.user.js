@@ -42,7 +42,6 @@ $(document).ready(function(){
         var tinytext = $('.tinytext_t');
         // Selecting original tinytext
         var tinytext_text = $('.game-profile-player > div > div > .tinytext').text();
-        console.log(tinytext_text);
         // Selecting earned xp splitting it by '/'
         var currentxp = tinytext_text.split("/");
         // selects current xp
@@ -51,7 +50,6 @@ $(document).ready(function(){
         var currentxp_arr_format = Intl.NumberFormat().format(currentxp_arr);
         // Selecting current level
         var currentlevel = $('#game_content_currentpage > tr:nth-child(2) > td > .gtable > .gtr:nth-child(2) > .tcenter');
-        console.log(currentlevel);
         // Splitting level string
         var currentlevel_lvl = $(currentlevel[0]).text().split(":");
         // Selects current level
