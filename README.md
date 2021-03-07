@@ -67,6 +67,8 @@
 	Formats xp numbers to US standards.\
 	Replaces the correct current xp progress span.
 
+-	**Version 0.4.3.1**\
+	Game window is now full width.
 ---
 
 # TODO
