@@ -33,6 +33,4 @@ div.failure, div.success {
     top: 10px;
 }
 
-.game-container {
-	max-width:100vw;
-}
+.game-container {max-width:100vw;}
