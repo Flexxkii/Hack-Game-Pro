@@ -27,10 +27,20 @@
 	border: 1px solid #292929;
 }
 
-div.failure, div.success {
+div.failure, div.success, div.error {
 	z-index: 99;
     position: sticky;
     top: 10px;
 }
 
 .game-container {max-width:100vw;}
+
+.game-profile-player.gboxshadow.gdark.tleft .gtable.gtable-bordered {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.game-profile-player.gboxshadow.gdark.tleft .gtable.gtable-bordered .gtr.gtr-dark {
+	display: flex;
+    justify-content: space-around;
+}

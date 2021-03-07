@@ -68,7 +68,8 @@
 	Replaces the correct current xp progress span.
 
 -	**Version 0.4.3.1**\
-	Game window is now full width.
+	Game window is now full width.\
+	Small jobs 2 columns instead of one.
 ---
 
 # TODO
