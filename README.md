@@ -13,8 +13,8 @@
 -	Show battery percentage
 -	Sticky notification bar
 -	Keypress triggers.
-	-	**Spacebar** for the 'attempt hacking' button in small hacks.
 	-	**Z** key selects the last job.
+	-	**X** key triggers the 'Attempt Hacking'.
 
  ---
 
@@ -77,7 +77,7 @@
 
 -	**Version 0.4.3.2**\
 	Keyboard triggers for small hacks window.\
-		-	**Spacebar** is the 'Attempt hacking' button.\
+		-	**X** key triggers the 'Attempt Hacking'.\
 		-	**Z** selects the last job.
 
 ---
