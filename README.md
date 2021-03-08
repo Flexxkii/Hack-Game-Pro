@@ -13,10 +13,10 @@
 -	Show battery percentage
 -	Sticky notification bar
 -	Keypress triggers.
-	-	**Z** key selects the last job.
-	-	**X** key triggers the *'Attempt Hacking'* and *'new contract'* button.
 	-	**A** Goes to your profile.
 	-	**S** Goes to the store page.
+	-	**Z** key selects the last job.
+	-	**X** key triggers the *'Attempt Hacking'* and *'new contract'* button.
 	-	**1** Goes to Opsec tab.
 	-	**2** Goes to Cloud drive tab.
 	-	**3** Goes to Small hack jobs tab.
@@ -85,10 +85,10 @@
 
 -	**Version 0.4.3.2**\
 	Keyboard triggers for small hacks window.\
-		-	**X** key triggers the *'Attempt Hacking'* and *'new contract'* button.\
-		-	**Z** selects the last job.
-		-	**A** Goes to your profile.
+		-	**A** Goes to your profile.\
 		-	**S** Goes to the store page.
+		-	**X** key triggers the *'Attempt Hacking'* and *'new contract'* button.
+		-	**Z** selects the last job.
 		-	**1** to **6** navigates you through the tabs within the game.
 
 ---
