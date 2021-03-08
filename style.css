@@ -42,7 +42,7 @@ div.failure, div.success, div.error {
 
 .game-profile-player.gboxshadow.gdark.tleft .gtable.gtable-bordered .gtr.gtr-dark {
 	display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .game-profile-player.gboxshadow.gdark.tleft .gtable.gtable-bordered .gtr.gtr-dark .gtd.gcat {
