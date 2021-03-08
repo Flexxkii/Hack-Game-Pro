@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Hack Game Pro
 // @namespace    http://tampermonkey.net/
-// @version      0.4.4
+// @version      0.4.4.1
 // @updateURL    https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js
-// @description  Displays a progress bar in your profile to see how far you are until unlocking the medal of honor award.
+// @description  Adds a ton of features to the Hacking game on HF
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
 // @match        https://hackforums.net/gamecp.php*
 // @require      http://code.jquery.com/jquery-3.x-git.min.js
@@ -47,7 +47,7 @@ $(document).ready(function(){
         // selects current xp
         var currentxp_arr = currentxp[0];
         // Current xp formatted
-        var currentxp_arr_format = Intl.NumberFormat().format(currentxp_arr);
+        var currentxp_arr_format = currentxp_arr.replace(/,/g, '');
         // Selecting current level
         var currentlevel = $('#game_content_currentpage > tr:nth-child(2) > td > .gtable > .gtr:nth-child(2) > .tcenter');
         // Splitting level string
@@ -57,7 +57,7 @@ $(document).ready(function(){
         // calculates total xp earned
         var totalxpcalc = Math.pow(currentlevel_lvl_arr, 2) * 100;
         // Calculates total xp earned plus current xp
-        var totalxplevel = Number(totalxpcalc)+Number(currentxp_arr);
+        var totalxplevel = Number(totalxpcalc)+Number(currentxp_arr_format);
         // Total xp formatted
         var totalxplevel_format = Intl.NumberFormat().format(totalxplevel);
         // Calculates the percentage of the total for the 250.000 xp milestone
@@ -70,6 +70,7 @@ $(document).ready(function(){
         var width_calc_nl_round = width_calc_nl.toFixed(2);
         // Selects the cloned progressbar
         var progress_bar = $('#progress-bar-percentage_t');
+        console.log(totalxplevel_format);
 
         // Correct width cloned progressbar
         progress_bar.width(width_calc_round+"%");
@@ -78,7 +79,7 @@ $(document).ready(function(){
         // Displays current xp / milestone | percentage for 250.000 xp
         $(tinytext).text(`${totalxplevel_format} / 250,000 xp | ${width_calc_round}%`);
         // Displays current xp / milestone | percentage for the next level milestone
-        $(".tinytext:not('.tinytext_t')").text(`${currentxp_arr_format} / ${currentxp[1]} | ${width_calc_nl_round}%`);
+        $(".tinytext:not('.tinytext_t')").text(`${currentxp_arr} / ${currentxp[1]} | ${width_calc_nl_round}%`);
     }
 
     function batterypercentage() {

@@ -92,6 +92,9 @@
 		-	**Z** selects the last job.\
 		-	**1** to **6** navigates you through the tabs within the game.
 
+-	**Version 0.4.4.1**\
+	Bug fixes.
+
 ---
 
 # TODO
