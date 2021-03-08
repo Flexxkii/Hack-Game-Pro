@@ -86,9 +86,9 @@
 -	**Version 0.4.3.2**\
 	Keyboard triggers for small hacks window.\
 		-	**A** Goes to your profile.\
-		-	**S** Goes to the store page.
-		-	**X** key triggers the *'Attempt Hacking'* and *'new contract'* button.
-		-	**Z** selects the last job.
+		-	**S** Goes to the store page.\
+		-	**X** key triggers the *'Attempt Hacking'* and *'new contract'* button.\
+		-	**Z** selects the last job.\
 		-	**1** to **6** navigates you through the tabs within the game.
 
 ---
