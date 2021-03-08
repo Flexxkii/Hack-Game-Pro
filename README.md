@@ -14,7 +14,7 @@
 -	Sticky notification bar
 -	Keypress triggers.
 	-	**Z** key selects the last job.
-	-	**X** key triggers the 'Attempt Hacking'.
+	-	**X** key triggers the 'Attempt Hacking' button.
 
  ---
 
@@ -77,7 +77,7 @@
 
 -	**Version 0.4.3.2**\
 	Keyboard triggers for small hacks window.\
-		-	**X** key triggers the 'Attempt Hacking'.\
+		-	**X** key triggers the 'Attempt Hacking' button.\
 		-	**Z** selects the last job.
 
 ---
