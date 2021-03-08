@@ -84,6 +84,7 @@
 	Contract button are colored now
 
 -	**Version 0.4.4**\
+	CSS fixes.\
 	Keyboard triggers for small hacks window.\
 		-	**A** Goes to your profile.\
 		-	**S** Goes to the store page.\
