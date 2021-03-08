@@ -15,6 +15,14 @@
 -	Keypress triggers.
 	-	**Z** key selects the last job.
 	-	**X** key triggers the *'Attempt Hacking'* and *'new contract'* button.
+	-	**A** Goes to your profile.
+	-	**S** Goes to the store page.
+	-	**1** Goes to Opsec tab.
+	-	**2** Goes to Cloud drive tab.
+	-	**3** Goes to Small hack jobs tab.
+	-	**4** Goes to PC hack tab.
+	-	**5** Goes to Server hack tab.
+	-	**6** Goes to Missions tab.
 
  ---
 
@@ -79,6 +87,9 @@
 	Keyboard triggers for small hacks window.\
 		-	**X** key triggers the *'Attempt Hacking'* and *'new contract'* button.\
 		-	**Z** selects the last job.
+		-	**A** Goes to your profile.
+		-	**S** Goes to the store page.
+		-	**1** to **6** navigates you through the tabs within the game.
 
 ---
 

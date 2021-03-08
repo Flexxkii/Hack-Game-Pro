@@ -106,6 +106,46 @@ $(document).ready(function(){
             // clicks 'new contract'
             $('button.contract_button.game-button-missions').click();
         }
+        // if 'a' is pressed
+        if (e.code === "KeyA") {
+            // clicks your profile
+            $('.hficon-user').click();
+        }
+        // if 's' is pressed
+        if (e.code === "KeyS") {
+            // clicks the store
+            $('.hficon-store').click();
+        }
+        // if '1' is pressed
+        if (e.code === "Digit1") {
+            // Goes to Opsec
+            $('.game_nav_content_system_container').children()[0].click();
+        }
+        // if '2' is pressed
+        if (e.code === "Digit2") {
+            // Goes to Cloud drive
+            $('.game_nav_content_system_container').children()[1].click();
+        }
+        // if '3' is pressed
+        if (e.code === "Digit3") {
+            // Goes to Small hacks jobs
+            $('.game_nav_content_system_container').children()[2].click();
+        }
+        // if '4' is pressed
+        if (e.code === "Digit4") {
+            // Goes to PC hack
+            $('.game_nav_content_system_container').children()[3].click();
+        }
+        // if '5' is pressed
+        if (e.code === "Digit5") {
+            // Goes to Server hack
+            $('.game_nav_content_system_container').children()[4].click();
+        }
+        // if '6' is pressed
+        if (e.code === "Digit6") {
+            // Goes to Missions
+            $('.game_nav_content_system_container').children()[5].click();
+        }
     }
 
     batterypercentage();
