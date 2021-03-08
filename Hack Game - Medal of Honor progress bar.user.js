@@ -70,12 +70,6 @@ $(document).ready(function(){
         var width_calc_nl_round = width_calc_nl.toFixed(2);
         // Selects the cloned progressbar
         var progress_bar = $('#progress-bar-percentage_t');
-        // Selecting game container
-        var world = $(".game-profile-player");
-        // Last job checkbox
-        var last_job_checkbox = $('#job_id_22');
-        // Small hacks buttons
-        var smallhacks_bt = $('button.button.game-button-smallhacks');
 
         // Correct width cloned progressbar
         progress_bar.width(width_calc_round+"%");
@@ -96,18 +90,25 @@ $(document).ready(function(){
         $(battery).prepend(`<span style='font-size: .5em; padding-right: 1em;'> ${battery_title} </span>`);
     }
 
-    // Keyboard events
-    $(document).keypress(function(e) {
+    // Keyboard events listenera
+    document.addEventListener('keypress', logKey);
+
+    // Button presses function
+    function logKey(e) {
         // if 'z' is pressed
-        if(e.which == 90) {
-            $(last_job_checkbox).click();
+        if (e.code === "KeyZ") {
+            $('#job_id_22').click();
         }
-        // If spacebar is pressed
-        if(e.which == 32) {
-            $(smallhacks_bt).click();
+        // If 'x' is pressed
+        if (e.code === "KeyX") {
+            // clicks 'attempt hacking'
+            $('button.button.game-button-smallhacks').click();
+            // clicks 'new contract'
+            $('button.contract_button.game-button-missions').click();
         }
-    });
+    }
 
     batterypercentage();
     milestone();
+
 });
