@@ -12,8 +12,8 @@
 -	Displays percentage until next milestone.
 -	Show battery percentage
 -	Sticky notification bar
--	Keypress triggers.\
-	-	**Spacebar** for the 'attempt hacking' button in small hacks.\
+-	Keypress triggers.
+	-	**Spacebar** for the 'attempt hacking' button in small hacks.
 	-	**Z** key selects the last job.
 
  ---
