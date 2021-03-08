@@ -49,6 +49,11 @@ div.failure, div.success, div.error {
 	width: 100%;
 }
 
+.game-profile-player.gboxshadow.gdark.tleft .gtable.gtable-bordered .gtd.tleft {
+	grid-column: 2;
+    justify-self: end;
+}
+
 .contract_button[name="accept_offer"] {
 	background: #4CAF50;
     color: #1f1f1f;
