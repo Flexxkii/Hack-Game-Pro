@@ -48,3 +48,15 @@ div.failure, div.success, div.error {
 .game-profile-player.gboxshadow.gdark.tleft .gtable.gtable-bordered .gtr.gtr-dark .gtd.gcat {
 	width: 100%;
 }
+
+.contract_button[name="accept_offer"] {
+	background: #4CAF50;
+    color: #1f1f1f;
+}
+
+.contract_button[name="deny_offer"] {
+	background: #a63d3d;
+    color: #1f1f1f;
+}
+// succes #4CAF50
+// error #a63d3d
