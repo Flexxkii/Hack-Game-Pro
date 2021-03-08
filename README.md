@@ -71,6 +71,11 @@
 	Game window is now full width.\
 	Small jobs 2 columns instead of one.\
 	Contract button are colored now
+
+-	**Version 0.4.3.2**\
+	Keyboard triggers for small hacks window.
+		-	**Spacebar** is the 'Attempt hacking' button.
+		-	**Z** selects the last job.
 ---
 
 # TODO

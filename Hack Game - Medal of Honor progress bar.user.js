@@ -70,6 +70,12 @@ $(document).ready(function(){
         var width_calc_nl_round = width_calc_nl.toFixed(2);
         // Selects the cloned progressbar
         var progress_bar = $('#progress-bar-percentage_t');
+        // Selecting game container
+        var world = $(".game-profile-player");
+        // Last job checkbox
+        var last_job_checkbox = $('#job_id_22');
+        // Small hacks buttons
+        var smallhacks_bt = $('button.button.game-button-smallhacks');
 
         // Correct width cloned progressbar
         progress_bar.width(width_calc_round+"%");
@@ -89,6 +95,18 @@ $(document).ready(function(){
         // Add percentage text before the battery icoon
         $(battery).prepend(`<span style='font-size: .5em; padding-right: 1em;'> ${battery_title} </span>`);
     }
+
+    // Keyboard events
+    $(document).keypress(function(e) {
+        // if 'z' is pressed
+        if(e.which == 90) {
+            $(last_job_checkbox).click();
+        }
+        // If spacebar is pressed
+        if(e.which == 32) {
+            $(smallhacks_bt).click();
+        }
+    });
 
     batterypercentage();
     milestone();
