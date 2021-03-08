@@ -12,6 +12,9 @@
 -	Displays percentage until next milestone.
 -	Show battery percentage
 -	Sticky notification bar
+-	Keypress triggers.\
+	-	**Spacebar** for the 'attempt hacking' button in small hacks.\
+	-	**Z** key selects the last job.
 
  ---
 
@@ -73,9 +76,10 @@
 	Contract button are colored now
 
 -	**Version 0.4.3.2**\
-	Keyboard triggers for small hacks window.
-		-	**Spacebar** is the 'Attempt hacking' button.
+	Keyboard triggers for small hacks window.\
+		-	**Spacebar** is the 'Attempt hacking' button.\
 		-	**Z** selects the last job.
+
 ---
 
 # TODO
