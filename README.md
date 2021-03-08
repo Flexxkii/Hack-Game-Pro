@@ -83,7 +83,7 @@
 	Small jobs 2 columns instead of one.\
 	Contract button are colored now
 
--	**Version 0.4.3.2**\
+-	**Version 0.4.4**\
 	Keyboard triggers for small hacks window.\
 		-	**A** Goes to your profile.\
 		-	**S** Goes to the store page.\
