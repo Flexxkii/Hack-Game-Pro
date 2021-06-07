@@ -96,6 +96,8 @@ $(document).ready(function(){
 
     // Button presses function
     function logKey(e) {
+        if (window.location.href.indexOf("terminal") != -1) {}
+        else{
         // if 'z' is pressed
         if (e.code === "KeyZ") {
             $('#job_id_22').click();
@@ -147,9 +149,12 @@ $(document).ready(function(){
             // Goes to Missions
             $('.game_nav_content_system_container').children()[5].click();
         }
+        }
     }
 
     batterypercentage();
+    if (window.location.href.indexOf("profile") != -1){
     milestone();
+    };
 
 });
