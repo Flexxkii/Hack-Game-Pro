@@ -1,4 +1,4 @@
-# Hack Game Pro 0.4.4
+# Hack Game Pro 0.4.5
  hackforums.net | Hack Game - Medal of Honor progress bar
 
 [<img src="imgs/btn1.svg?raw=true" height="50">](https://github.com/Flexxkii/Hack-Game-Pro)
