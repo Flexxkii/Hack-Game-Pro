@@ -95,6 +95,10 @@
 -	**Version 0.4.4.1**\
 	Bug fixes.
 
+-	**Version 0.4.5**\
+	Selects the last job.
+	Merges Raginize's fixes
+
 ---
 
 # TODO

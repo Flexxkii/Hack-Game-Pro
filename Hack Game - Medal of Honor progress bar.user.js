@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hack Game Pro
 // @namespace    http://tampermonkey.net/
-// @version      0.4.4.1
+// @version      0.4.5
 // @updateURL    https://github.com/Flexxkii/Hack-Game-Pro/raw/main/Hack%20Game%20-%20Medal%20of%20Honor%20progress%20bar.user.js
 // @description  Adds a ton of features to the Hacking game on HF
 // @author       Goku @ https://hackforums.net/member.php?action=profile&uid=2451258
@@ -100,7 +100,7 @@ $(document).ready(function(){
         else{
         // if 'z' is pressed
         if (e.code === "KeyZ") {
-            $('#job_id_22').click();
+            $('#job_id_23').click();
         }
         // If 'x' is pressed
         if (e.code === "KeyX") {
